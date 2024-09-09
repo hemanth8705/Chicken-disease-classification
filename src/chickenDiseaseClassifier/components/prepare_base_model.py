@@ -1,10 +1,10 @@
-
 import os
 from urllib.request import Request
 from zipfile import ZipFile
 import tensorflow as tf
 from chickenDiseaseClassifier.entity.config_entity import PrepareBaseModelConfig
 from pathlib import Path
+
 
 class PrepareBaseModel:
     def __init__(self, config: PrepareBaseModelConfig):
