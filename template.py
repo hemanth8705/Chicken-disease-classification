@@ -5,7 +5,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO , format = '[%(asctime)s : %(message)s:]' )
 
-project_name = "Chicken-disease-classifier"
+project_name = "chickenDiseaseClassifier"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -15,7 +15,7 @@ list_of_files = [
     f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
-    f"src/{project_name}/constanta/__init__.py",
+    f"src/{project_name}/constant/__init__.py",
     "config/config.yaml",
     "dvc.yaml",
     "params.yaml",
@@ -23,7 +23,9 @@ list_of_files = [
     "README.md",
     "setup.py",
     "research/trails.ipynb",
-    "templates/index.html"
+    "templates/index.html",
+    f"src/{project_name}/utils/__init__.py",
+    f"src/{project_name}/utils/common.py"
 
 
 ]
