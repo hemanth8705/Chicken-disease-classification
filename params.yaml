@@ -1,1 +1,8 @@
-key : val
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
+BATCH_SIZE: 16            # if we have high hardware configuration we can increase the batch size
+INCLUDE_TOP: False        # we are using trasfer learning(so not training the model) and including the top paramets / weights
+EPOCHS: 1
+CLASSES: 2                # healthy images and diseased images
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
